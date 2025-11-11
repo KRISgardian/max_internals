@@ -48,5 +48,12 @@ if(-not(Test-Path -Path "$current_path\$directory_name")){
 }
 
 
+# Creating .gitignore file
+$directory_name = ".gitignore"
+if(-not(Test-Path -Path "$current_path\$directory_name")){
+    $null = New-Item -Path "$current_path\$directory_name" -ItemType File
+}
+
+
 # Creating git repo
 git init
