@@ -1,0 +1,21 @@
+# Temp files
+*.tmp
+*.temp
+
+
+# Executable files
+*.exe
+*.dll
+*.lib
+*.so
+*.x64
+*.ea
+*.earch
+
+
+# Build directory
+build
+
+
+# Bin directory
+bin
